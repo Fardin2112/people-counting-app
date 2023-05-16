@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People counting app</title>
+    <link rel="stylesheet" href="scipt.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="view">
+            <h1> People entered : </h1>
+            <h2 id="count-el">0</h2>
+            <div class="button">              
+                <button id="decbtn" class="btn" onclick="decrement()">DECREMENT</button>
+                <button id="incbtn" class="btn" onclick="increment()">INCREMENT</button>
+            </div>
+            <button id="save-btn" onclick="save()">Save</button>
+            <p id="save-id">Previous entries : </p>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
